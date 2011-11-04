@@ -1,3 +1,9 @@
+# revision 17483
+# category Package
+# catalog-ctan /macros/latex/contrib/miniplot
+# catalog-date 2010-03-14 23:57:23 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-miniplot
 Version:	20100314
 Release:	1
@@ -47,6 +53,7 @@ boxes.
 %doc %{_texmfdistdir}/doc/latex/miniplot/documentation.zip
 %doc %{_texmfdistdir}/doc/latex/miniplot/miniplot.pdf
 %doc %{_texmfdistdir}/doc/latex/miniplot/miniplot.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ boxes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
