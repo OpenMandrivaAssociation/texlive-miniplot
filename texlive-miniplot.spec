@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-miniplot
 Version:	20100314
-Release:	7
+Release:	8
 Summary:	A package for easy figure arrangement
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/miniplot
