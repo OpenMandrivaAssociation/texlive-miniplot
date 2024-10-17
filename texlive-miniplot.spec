@@ -3,7 +3,7 @@ Version:	17483
 Release:	2
 Summary:	A package for easy figure arrangement
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/miniplot
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/miniplot
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/miniplot.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/miniplot.doc.r%{version}.tar.xz
